@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alarm Clock</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <style>
+    .container {
+      max-width: 400px;
+      margin: 50px auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Alarm Clock</h1>
+    <div>
+      <label for="alarm-time">Set Alarm Time:</label>
+      <input type="time" id="alarm-time">
+    </div>
+    <div>
+      <button onclick="setAlarm()">Set Alarm</button>
+      <button onclick="stopAlarm()">Stop Alarm</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
